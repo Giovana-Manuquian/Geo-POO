@@ -1,5 +1,6 @@
 package br.senai.sp.jandira;
 import br.senai.sp.jandira.model.Circulo;
+import br.senai.sp.jandira.model.FormaGeometrica;
 import br.senai.sp.jandira.model.Retangulo;
 
 import java.util.Scanner;
@@ -22,12 +23,12 @@ public class GerenciadorFormas {
 
             switch (opcaoUsuario){
                 case 1:
-                    Circulo circulo = new Circulo();
+                    FormaGeometrica circulo = new Circulo();
                     circulo.calcularPerimetro();
                     circulo.calcularPerimetro();
                     break;
                 case 2:
-                    Retangulo retangulo = new Retangulo();
+                    FormaGeometrica retangulo = new Retangulo();
                     retangulo.calcularArea();
                     retangulo.calcularPerimetro();
                     break;
